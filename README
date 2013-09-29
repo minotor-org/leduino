@@ -1,0 +1,11 @@
+leduino is an Arduino-based LED strips USB interface.
+
+This firmware allow you to drive an FastSPI-compiliant LED strip/modules using Arduino Mega.
+
+Additionnally to the simple USB to LED strip converter, this firmware features a color/brightness correction.
+
+To turn your Arduino Mega into a LEDuino, you need to install FastSPI¹ library, then compile and upload this sketch as usual.
+
+Please that hardware connection between Arduino and your LED strip should follow the FastSPI requierements.
+
+[1] http://code.google.com/p/fastspi/
